@@ -1,0 +1,32 @@
+# Go binaries
+client
+autocc
+*.exe
+*.test
+
+# Go vendor directory
+vendor/
+
+# Backup files
+*.save
+*.save.*
+*~
+
+# Logs
+*.log
+
+# Environment and secret files
+.env
+.env.*
+
+# Fabric generated files
+organizations/
+system-genesis-block/
+channel-artifacts/
+
+# Docker generated files
+docker-compose*.log
+
+# OS files
+.DS_Store
+Thumbs.db
